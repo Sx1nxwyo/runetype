@@ -1,5 +1,4 @@
 # RUNETYPE
-
 ```
 ██████╗ ██╗   ██╗███╗   ██╗███████╗████████╗██╗   ██╗██████╗ ███████╗
 ██╔══██╗██║   ██║████╗  ██║██╔════╝╚══██╔══╝╚██╗ ██╔╝██╔══██╗██╔════╝
@@ -31,7 +30,7 @@
 | Platform | Link |
 |----------|------|
 | **Windows (.exe)** | [Latest Release →](../../releases/latest) |
-| **Python (all platforms)** | `pip install pillow` then `python ascii_gen.py` |
+| **Python (all platforms)** | `pip install pillow` then `python runetype.py` |
 
 ---
 
@@ -45,7 +44,6 @@
 ---
 
 ## Run from source
-
 ```bash
 pip install pillow
 python runetype.py
@@ -54,10 +52,9 @@ python runetype.py
 ---
 
 ## Build .exe yourself
-
 ```
 pip install pyinstaller
-pyinstaller --onefile --noconsole --name runetype ascii_gen.py
+pyinstaller --onefile --noconsole --name runetype runetype.py
 ```
 
 ---
