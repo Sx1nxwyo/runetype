@@ -48,7 +48,7 @@
 
 ```bash
 pip install pillow
-python ascii_gen.py
+python runetype.py
 ```
 
 ---
